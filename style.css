@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Nimbus sans L";
+}
+
+.main {
+  width: 100%;
+}
+
+#nav {
+  width: 100%;
+  height: 6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5vw 7vw;
+  /* background-color: red; */
+}
+#navleft {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#nav .name {
+  margin-left: -13vw;
+  font-size: 1.2vw;
+}
+#nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+#page1 {
+  width: 100%;
+  height: 32vw;
+  padding: 0vw 9vw;
+  margin-top: 14vw;
+  display: flex;
+  /* background-color: red;  */
+  justify-content: space-between;
+}
+
+#sustainbox {
+  /* background-color: blue; */
+  width: 18%;
+  margin-top: 5vw;
+}
+#sustainimg {
+  width: 10vw;
+  height: 15vw;
+  /* background-color: blue; */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+#sustainbox h5 {
+  /* background-color: red; */
+  font-size: 0.81vw;
+  color: #3b3a3ac4;
+}
+#sustainbox h6 {
+  /* background-color: red; */
+  font-size: 0.71vw;
+  color: #3b3a3ac4;
+  font-weight: 500;
+  margin-bottom: 1.3vw;
+  margin-top: 0.4vw;
+  text-align: left;
+}
+
+#sustainbox h1 {
+  font-size: 1.4vw;
+}
+
+#sustainimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#ephemeralbox {
+  width: 27vw;
+  height: 44vw;
+  /* background-color: red; */
+  position: relative;
+}
+
+#ephemeralbox #imgbox_ {
+  width: 27vw;
+  height: 38vw;
+}
+
+#ephemeralbox #heading {
+  position: absolute;
+  top: -16%;
+  left: -13%;
+}
+
+#ephemeralbox #heading h1 {
+  font-size: 5vw;
+  font-weight: 400;
+  letter-spacing: -0.2vw;
+  line-height: 4.3vw;
+}
+#ephemeralbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#ephemeralbox p {
+  font-weight: 400;
+  font-size: 1vw;
+  letter-spacing: 0.1w;
+  color: #675c5c;
+  position: absolute;
+  top: 85%;
+}
+#visitbox {
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  gap: 0.3vw;
+}
+
+#vcircle {
+  /* padding: 2vw 2vw;  */
+  width: 2vw;
+  height: 2vw;
+  border: 2px solid #82686888;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vcircle i,
+h6 {
+  color: #675c5c;
+}
+
+#page2 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20vh;
+  padding: 10vw 10vw 0vw 15vw;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+#left-P2 {
+  width: 22%;
+  height: 70%;
+}
+
+#left-P2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#left-P2 h6 {
+  color: #675c5c;
+  font-weight: 400;
+  text-align: left;
+}
+#right-P2 {
+  width: 30%;
+  height: 92%;
+  /* background-color: blue; */
+}
+#right-P2 h3,
+h6 {
+  text-align: right;
+}
+#right-P2 h6 {
+  color: #675c5c;
+  font-weight: 400;
+}
+
+#right-P2 #imgbox-p2 {
+  width: 100%;
+  height: 90%;
+}
+#right-P2 #imgbox-p2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: ; */
+}
+
+#page3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page3 #imgbox-p3 {
+  width: 70%;
+  height: 70%;
+  margin-top: 12vh;
+  background-color: red;
+}
+
+#page3 #imgbox-p3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+#page3 #textbox-p3 {
+  width: 30%;
+  height: 70%;
+  margin-top: 12vh;
+  /* background-color: yellow; */
+  padding: 15vw 2vw;
+}
+#page3 #textbox-p3 h6 {
+  text-align: left;
+  font-weight: 400;
+  line-height: 1vw;
+  margin-top: 1vw;
+}
+#page3 #textbox-p3 h3 {
+  line-height: 2vw;
+  font-size: 2vw;
+}
+
+#page4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#page4 #ftext {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+#page4 #ftext button {
+  padding: 0.8vw 1.7vw;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #111;
+  font-size: 0.99vw;
+}
+#page4 #ftext {
+  width: 20vw;
+  height: 10vw;
+  background-color: #fff;
+  border-radius: 15px;
+
+  padding: 1vw 0vw;
+}
+#page4 #ftext h1 {
+  font-size: 3vw;
+  font-weight: 400;
+  color: #111;
+}
+#page4 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0  ;
+}
